@@ -28,9 +28,9 @@ export default defineConfig({
       component: './Table',
     },
     {
-      name: '注册',
-      path: '/signup',
-      component: './Signup',
+      name: '鉴权',
+      path: '/auth',
+      component: './Auth',
     },
   ],
   npmClient: 'pnpm',
